@@ -1,5 +1,29 @@
+# Build
 bin/
 obj/
+out/
+
+# NuGet
 /packages/
-riderModule.iml
-/_ReSharper.Caches/
+*.nupkg
+
+# Rider / ReSharper
+.idea/
+*.iml
+_ReSharper.Caches/
+_ReSharper.Caches
+*.DotSettings.user
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / Local
+appsettings.Development.json
+appsettings.local.json
